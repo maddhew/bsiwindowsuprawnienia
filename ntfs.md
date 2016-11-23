@@ -35,7 +35,10 @@ Szyfrowany jest metodą symetryczną (algorytmem AES, 3DES lub DESX). Klucz jedn
 do szyfrowania przechowywany jest w nagłówku EFS zaszyfrowanego pliku. Klucz ten jest sam zaszyfrowany
 kluczem publicznym (algorytm RSA) właściciela pliku, który przechowywany jest w certyfikacie EFS użytkownika.	
 #### 8.  Co zawierają certyfikaty EFS użytkowników?
-Klucz publiczny użytkownika (i jeszcze parę innych rzeczy, ale nie wiem czy to też mamy wiedzieć).
+Klucz publiczny i prywatny użytkownika. Klucz prywatny jest uzyty do odszyfrowania klucza symetrycznego,
+ktory to zostal zaszyfrowany kluczem publicznym. Ogolnie to gosciu na tym filmiku
+https://www.youtube.com/watch?v=rnuCitzSgQ8 rozjebal temat o EFS. Jest tam bardziej pokazane jak to w praktyce
+wyglada, ale na poczatku i pod koniec (od 10:57) jest przeglad od strony teoretycznej.
 #### 9.  Jak umożliwić współdzielenie zaszyfrowanego pliku?
 You can add extra authorized users to files, but not folders, and you can't add groups—just individuals. The process is very simple:
 <ol>

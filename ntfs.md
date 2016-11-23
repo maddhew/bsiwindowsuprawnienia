@@ -1,11 +1,9 @@
 
 #### 1. Jakie uprawnienia kryją się pod nazwą "Uprawnienia specjalne" widoczną wśród prostych ACL?
 Czy to jest [to](http://www.omnisecu.com/windows-2003/managing-files-and-folders/special-permissions.php)?
-#### 2. Jak wyznaczane są czynne uprawnienia dostępu do zasobów NTFS? 
-####    Które operacje autoryzacji - zezwolenia czy odmowy - posiadają priorytet podczas kontroli dostępu? 
-####    Które uprawnienia - odziedziczone czy jawnie nadane mają wyższy priorytet?
-Effective permissions are based on a local evaluation of the user's group membership, user privileges, and permissions. If the resource being queried is on a remote computer, the effective permissions displayed will not include permissions granted or denied to the user through the use of a local group on the remote computer. Tyle chyba starczy?
-Explicit permissions take precedence over inherited permissions, even inherited Deny permissions.
+#### 2. Jak wyznaczane są czynne uprawnienia dostępu do zasobów NTFS? Które operacje autoryzacji - zezwolenia czy odmowy - posiadają priorytet podczas kontroli dostępu?  Które uprawnienia - odziedziczone czy jawnie nadane mają wyższy priorytet?
+Effective permissions are based on a local evaluation of the user's group membership, user privileges, and permissions. If the resource being queried is on a remote computer, the effective permissions displayed will not include permissions granted or denied to the user through the use of a local group on the remote computer. Tyle chyba starczy?  
+Explicit permissions take precedence over inherited permissions, even inherited Deny permissions.  
 Deny nadpisuje Allow.
 #### 3. Jak w Windows 7 można zmienić uprawnienia dla kilku plików jednocześnie?
 Należy umieścić wybrane pliki w jednym folderze i zmienić uprawnienia dla tego folderu

@@ -1,6 +1,6 @@
 
 #### 1. Jakie uprawnienia kryją się pod nazwą "Uprawnienia specjalne" widoczną wśród prostych ACL?
-Chuj wie
+Czy to jest [to](http://www.omnisecu.com/windows-2003/managing-files-and-folders/special-permissions.php)?
 #### 2. Jak wyznaczane są czynne uprawnienia dostępu do zasobów NTFS? 
 Które operacje autoryzacji - zezwolenia czy odmowy - posiadają priorytet podczas kontroli dostępu? 
 Które uprawnienia - odziedziczone czy jawnie nadane mają priorytet?

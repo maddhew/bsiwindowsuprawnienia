@@ -37,6 +37,13 @@ kluczem publicznym (algorytm RSA) właściciela pliku, który przechowywany jest
 #### 8.  Co zawierają certyfikaty EFS użytkowników?
 Klucz publiczny użytkownika (i jeszcze parę innych rzeczy, ale nie wiem czy to też mamy wiedzieć).
 #### 9.  Jak umożliwić współdzielenie zaszyfrowanego pliku?
+You can add extra authorized users to files, but not folders, and you can't add groups—just individuals. The process is very simple:
+<ol>
+    <li>Open the properties dialog for the file you want to add users to, then open the Advanced Attributes dialog box.</li>
+    <li>If it's not already encrypted, encrypt it—you cannot add users until you've successfully encrypted the file.</li>
+    <li>Click the Details button. You'll see an Encryption Details dialog that shows which users are currently authorized to open the file.</li>
+    <li>Click the Add button. Select the user you want to grant access to and click OK. IF necessary, you can use the Find User button to search the local machine or Active Directory for the user and the associated certificate.</li>
+</ol>
 #### 10. Do czego służy systemowe narzędzie rekeywiz?
 The Encrypting File System rekeying wizard allows the user to choose a certificate for EFS 
 and to select and migrate existing files that will use the newly chosen certificate. 

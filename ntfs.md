@@ -5,6 +5,7 @@ Czy to jest [to](http://www.omnisecu.com/windows-2003/managing-files-and-folders
 ####    Które operacje autoryzacji - zezwolenia czy odmowy - posiadają priorytet podczas kontroli dostępu? 
 ####    Które uprawnienia - odziedziczone czy jawnie nadane mają wyższy priorytet?
 Explicit permissions take precedence over inherited permissions, even inherited Deny permissions.
+Deny nadpisuje Allow.
 #### 3. Jak w Windows 7 można zmienić uprawnienia dla kilku plików jednocześnie?
 Należy umieścić wybrane pliki w jednym folderze i zmienić uprawnienia dla tego folderu
 wybierając opcję propagacji uprawnień na dzieci.

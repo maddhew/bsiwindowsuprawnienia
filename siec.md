@@ -1,8 +1,8 @@
 
 #### 1. Co oznaczają udziały C$ oraz IPC$ i do czego są wykorzystywane?
 
-DriveLetter$: This is a shared root partition or volume. Shared root partitions and volumes are displayed as the drive letter name appended with the dollar sign ($). For example, when drive letters C and D are shared, they are displayed as C$ and D$.  
-IPC$: This is a resource that shares the named pipes that you must have for communication between programs. This resource cannot be deleted.  
+**DriveLetter$**: This is a shared root partition or volume. Shared root partitions and volumes are displayed as the drive letter name appended with the dollar sign ($). For example, when drive letters C and D are shared, they are displayed as C$ and D$.  
+**IPC$**: This is a resource that shares the named pipes that you must have for communication between programs. This resource cannot be deleted.  
 
 #### 2. Jak przebiega zdalny dostęp do udziału udostępnionego użytkownikowi, którego lokalne konto (w systemie udostpęniającym udział) nie posiada hasła?
 
@@ -21,5 +21,6 @@ Ponieważ domyślna akcja dla połączeń przychodzących to "Zablokuj".
 
 #### 5. Co oznaczają stosowane przez Microsoft pojęcia emisji pojedynczej i multiemisji?
 
+Zdaje się, że emisja pojedyncza jest wtedy, gdy wysyłamy pakiety do pojedynczego odbiorcy, a multiemisja, gdy do wielu.
 
 [<<< back](./Readme.md)

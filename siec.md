@@ -1,7 +1,10 @@
 
 #### 1. Co oznaczają udziały C$ oraz IPC$ i do czego są wykorzystywane?
 
-**DriveLetter$**: This is a shared root partition or volume. Shared root partitions and volumes are displayed as the drive letter name appended with the dollar sign ($). For example, when drive letters C and D are shared, they are displayed as C$ and D$.  
+**DriveLetter$**: This is a shared root partition or volume. Shared root partitions and volumes are displayed as the drive letter name appended with the dollar sign ($). For example, when drive letters C and D are shared, they are displayed as C$ and D$.
+
+Shares with a $ are hidden shares (also called "Administrative shares" as mentioned by Diskilla) and thus not visible when requesting the share list of a device. (Dostęp do Administrative shares jest możliwy tylko z prawami administratora)
+
 **IPC$**: This is a resource that shares the named pipes that you must have for communication between programs. This resource cannot be deleted.  
 
 #### 2. Jak przebiega zdalny dostęp do udziału udostępnionego użytkownikowi, którego lokalne konto (w systemie udostpęniającym udział) nie posiada hasła?
